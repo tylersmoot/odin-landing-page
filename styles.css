@@ -113,6 +113,35 @@ color: white;
 
 }
 
+.quote-wrapper {
+    background: #e5e7eb;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    flex-direction: column;
+    
+    
+}
+
+.quote-text {
+    padding: 200px 250px 0 250px;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: bold;
+
+}
 
 
 
