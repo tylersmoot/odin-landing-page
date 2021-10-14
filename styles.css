@@ -86,11 +86,33 @@ color: white;
     font-size: 36px;
     font-weight:900;
     color: #1f2937;
+   
 }
 
 .info {
     padding: 0 100px 100px 100px;
 }
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-wrapper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.box {
+    border: 2px solid #3882f6;
+    padding: 100px;
+    border-radius: 10px;
+
+}
+
 
 
 
