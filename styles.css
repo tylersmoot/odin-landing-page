@@ -76,42 +76,50 @@ color: white;
 }
 
 .image-container img {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .info-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 40px 0 40px 0;
+    
     font-size: 36px;
     font-weight:900;
     color: #1f2937;
    
 }
 
-.info {
-    padding: 0 100px 100px 100px;
+.info-title {
+    padding-top: 40px;
 }
+
 
 .box-container {
     display: flex;
-    flex-direction: column;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
 }
 
-.box-wrapper {
-    display:flex;
+.box-container img {
+    width: 90%;
+    border-radius: 20px;
+}
+
+.image-container p {
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 100px;
+    align-items: center;
+    width: 90%;
 }
 
-.box {
-    border: 2px solid #3882f6;
-    padding: 100px;
-    border-radius: 10px;
-
+.image-container .subtext {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    text-align: center;
 }
+
+
 
 .quote-wrapper {
     background: #e5e7eb;
@@ -135,13 +143,57 @@ color: white;
     font-style: italic;
 }
 
-.quote-author {
-    display: flex;
-    justify-content: end;
-    font-size: 20px;
+.quote-wrapper .author {
     font-weight: bold;
-
+    font-size: 24px;
+    margin-left: 600px;
+    margin-top: 30px;
+   
+   
 }
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 250px;
+    
+}
+
+.cta-box {
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #3882f6;
+    
+}
+
+.cta-text {
+    display:flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.cta-text h4 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.cta-box button{
+    display: flex;
+    background: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 35px 6px 35px;
+    border-radius: 5px;
+}
+
 
 
 
